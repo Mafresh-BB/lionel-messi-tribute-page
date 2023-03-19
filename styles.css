@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+header {
+    text-align: center;
+    background-image: url("/images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 30%;
+    color: white;
+    height: 40vh;
+}
+@media screen and (min-width: 40em) {
+    header {
+        padding-top: 50px;
+    }
+    .club {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+}
+header h1 {
+    font-size: 3rem;
+    color: #efe055;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+header p {
+    font-size: 2rem;
+}
+main {
+    position: relative;
+    margin-top: 42vh;
+}
+body {
+    background-color: #c7142f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+.barcelona,
+.psg,
+.international {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 5px;
+}
+dt {
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+footer,
+summary + p,
+summary {
+    color: antiquewhite;
+}
+a {
+    color: #efe055;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+    margin-top: 10px;
+}
