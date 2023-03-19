@@ -81,7 +81,7 @@ h2 {
     font-family: 'Quicksand', sans-serif;
     text-decoration: underline;
 }
-img {
+.images img {
     width: 100%;
     margin-top: 10px;
 }
